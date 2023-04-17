@@ -1,0 +1,103 @@
+.navbar-brand {
+    font-size: 10em;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar {
+    background-color: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.arrow {
+    width: 5em;
+    position: absolute;
+    right: 20%;
+}
+
+.modal-btn {
+    position: absolute;
+    right: 20%;
+
+}
+
+body {
+    height: fit-content;
+    
+}
+
+.banner-text {
+    background-color: #5cb85c;
+    top: 20%;
+    left: 10%;
+    width: 25%;
+    padding: 2em;
+}
+
+#product {
+    background-color: #5cb85c;
+}
+/* .banner-button {
+    top: 80%;
+    left: 30%;
+    background-color: #5cb85c;
+} */
+
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    /* color: white; */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .logo {
+    float: left;
+    padding: 14px 16px;
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+  
+  }
+   .logo a {
+    text-decoration: none;
+   }
+
+  .btn a {
+    text-decoration: none;
+   }
+
+   #get-involved {
+    padding: 5em;
+   }
